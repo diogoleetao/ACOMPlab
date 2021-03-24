@@ -4,7 +4,6 @@ num:    .word 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 .text
 
-li x11, 3
 li x12, 0 #i
 li x14, 1
 li x15, 10 #counter
