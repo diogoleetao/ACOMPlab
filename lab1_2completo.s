@@ -1,3 +1,7 @@
+#calcula a maior potÃªncia de 2 menor que o dÃ©cimo elemento da sequÃªncia de fibonacci
+
+
+
 .data
 
 num:    .word
@@ -20,10 +24,10 @@ sw x11, 4(x10) #save y value on addr
 or x14, x0, x11 #z = y
 add x11, x11, x13 #y = y + x
 or x13, x0, x14 #x = z
-addi x10, x10, 4 #mover 4 bits no address, q é a dimensão de cada espaço
+addi x10, x10, 4 #mover 4 bits no address, q Ã© a dimensÃ£o de cada espaÃ§o
 blt x16, x15, for    #for i=1; i<10; i++
 
-li x28, 2 #potência de 2
+li x28, 2 #potÃªncia de 2
 
 while:
 
